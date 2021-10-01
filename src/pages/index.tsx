@@ -1,5 +1,6 @@
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
+import { FiCalendar, FiUser } from 'react-icons/fi';
 
 import { getPrismicClient } from '../services/prismic';
 
@@ -33,7 +34,82 @@ export default function Home(): JSX.Element {
       </Head>
 
       <main>
-        <h1>Hello</h1>
+        <article className={styles.postPreview}>
+          <header>
+            <h2>Como utilizar Hooks</h2>
+          </header>
+          <p>Pensando em sincronização em vez de ciclos de vida.</p>
+          <footer>
+            <span>
+              <FiCalendar size={20} /> 15 Mar 2021
+            </span>
+            <span>
+              <FiUser size={20} /> Joseph Oliveira
+            </span>
+          </footer>
+        </article>
+
+        <article className={styles.postPreview}>
+          <header>
+            <h2>Como utilizar Hooks</h2>
+          </header>
+          <p>Pensando em sincronização em vez de ciclos de vida.</p>
+          <footer>
+            <span>
+              <FiCalendar size={20} /> 15 Mar 2021
+            </span>
+            <span>
+              <FiUser size={20} /> Joseph Oliveira
+            </span>
+          </footer>
+        </article>
+
+        <article className={styles.postPreview}>
+          <header>
+            <h2>Como utilizar Hooks</h2>
+          </header>
+          <p>Pensando em sincronização em vez de ciclos de vida.</p>
+          <footer>
+            <span>
+              <FiCalendar size={20} /> 15 Mar 2021
+            </span>
+            <span>
+              <FiUser size={20} /> Joseph Oliveira
+            </span>
+          </footer>
+        </article>
+
+        <article className={styles.postPreview}>
+          <header>
+            <h2>Como utilizar Hooks</h2>
+          </header>
+          <p>Pensando em sincronização em vez de ciclos de vida.</p>
+          <footer>
+            <span>
+              <FiCalendar size={20} /> 15 Mar 2021
+            </span>
+            <span>
+              <FiUser size={20} /> Joseph Oliveira
+            </span>
+          </footer>
+        </article>
+
+        <article className={styles.postPreview}>
+          <header>
+            <h2>Como utilizar Hooks</h2>
+          </header>
+          <p>Pensando em sincronização em vez de ciclos de vida.</p>
+          <footer>
+            <span>
+              <FiCalendar size={20} /> 15 Mar 2021
+            </span>
+            <span>
+              <FiUser size={20} /> Joseph Oliveira
+            </span>
+          </footer>
+        </article>
+
+        <span className={styles.loadMorePosts}>Carregar mais posts</span>
       </main>
     </>
   );

@@ -29,6 +29,14 @@
 
 body {
   background-color: var(--black);
+  color: var(--white);
+  margin: auto;
+  
+  main {
+    padding: 0 1.25rem;
+    max-width: 44rem;
+    margin: auto;
+  }
 }
 
 body, input, textarea, select, button {
